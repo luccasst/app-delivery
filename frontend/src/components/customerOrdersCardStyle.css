@@ -1,0 +1,45 @@
+.link {
+    text-decoration: none;
+  }
+  
+  .order-card {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ffbe0b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .pedido-code {
+    align-items: center;
+    background-color: #ffbe0b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 50px;
+  }
+  
+  .pedido {
+    font-size: small;
+  }
+  
+  .date {
+    align-items: center;
+    background-color: #3a86ff;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    width: 130px;
+  }
+  
