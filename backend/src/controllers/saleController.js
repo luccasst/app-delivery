@@ -21,6 +21,14 @@ const saleController = {
         const allSales = await saleService.getAll(req.headers.id);
         return res.status(200).json(allSales);
     },
-}
+
+    async getSallesById(req, res) {
+        const token = req.headers.authorization;
+        await authenticationService.verifyToken(token);
+        await authenticationService.validateToken(token);
+        const result = await saleService.getSallesById(req.headers.id);
+        return res.status(201).json(result);
+    },
+};
 
 module.exports = saleController;

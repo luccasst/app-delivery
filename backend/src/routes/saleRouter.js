@@ -3,6 +3,7 @@ const saleController = require('../controllers/saleController');
 
 const saleRouter = Router();
 
+saleRouter.get('/seller', saleController.getSallesById);
 saleRouter.get('/:id', saleController.getById);
 saleRouter.get('/', saleController.getAll);
 saleRouter.post('/', saleController.add);
