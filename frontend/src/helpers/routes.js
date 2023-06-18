@@ -6,6 +6,8 @@ import RegisterManageUsers from '../pages/registerManageUsers/registerManageUser
 import CustomerProducts from '../pages/CustomerProducts/customerProducts';
 import SellerPage from '../pages/sellerOrders/sellerOrdersPage';
 import SellerOrdersById from '../pages/sellerOrdersById/sellerOrdersById';
+import CustomerOrdersById from '../pages/customerOdersById/customerOrdersById';
+
 
 
 function Routes() {
@@ -15,6 +17,7 @@ function Routes() {
         <Route exact path="/login" component={ LoginPage } />
         <Route exact path="/register" component={ RegisterPage } />
         <Route exact path="/customer/products" component={ CustomerProducts } />
+        <Route exact path="/customer/orders/:id" component={ CustomerOrdersById } />
         <Route exact path="/admin/manage" component={ RegisterManageUsers } />
         <Route exact path="/seller/orders" component={ SellerPage } />
         <Route exact path="/seller/orders/:id" component={ SellerOrdersById } />
