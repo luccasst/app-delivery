@@ -1,0 +1,67 @@
+.register-page {
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .register-page-body {
+    align-items: center;
+    background-color: #464D55;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    width: 350px;
+  }
+  
+  .register-form {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15px;
+  }
+  
+  .name {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  .email {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  .senha {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  .register-btn {
+    width:170px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: white 0px 0px 5px 0px;
+    background-color: transparent;
+    color: white;
+    text-transform:uppercase;
+    padding: 2px 0px;
+    font-size: 12px;
+    height: 20px;
+    font-family: monospace;
+  }
+  
+  .register-btn:disabled{
+    color:gray;
+  }
