@@ -14,13 +14,17 @@ const adminService = {
     const newUser = await models.User.create({ name, email, password: hash, role });
     return newUser;
   },
-  
+
   async findAll() {
     const users = await models.User.findAll({
       where: { role: { [Op.not]: 'administrator' } },
       attributes: { exclude: ['password', 'id'] },
     });
   return users;
+  },
+
+  async remove({ email }) {
+    await models.User.destroy({ where: { email } });
   },
 }
 

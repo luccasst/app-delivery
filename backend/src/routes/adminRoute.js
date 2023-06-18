@@ -5,6 +5,7 @@ const adminRoute = Router();
 
 adminRoute.post('/', adminController.createUser);
 adminRoute.get('/', adminController.findAll);
+adminRoute.delete('/', adminController.remove);
 
 
 module.exports = adminRoute;

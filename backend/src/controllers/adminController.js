@@ -16,6 +16,12 @@ const adminController = {
     const users = await adminService.findAll();
     return res.status(200).json(users);
   },
+
+  async remove(req, res) {
+    console.log(req.body);
+    await adminService.remove(req.body);
+    res.status(200).json({ message: 'Usuário removido com sucesso' });
+  },
 }
 
 module.exports = adminController;
