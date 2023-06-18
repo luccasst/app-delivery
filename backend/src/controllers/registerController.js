@@ -1,3 +1,4 @@
+const authenticationService = require('../services/authenticationService');
 const registerService = require('../services/registerService');
 
 const registerController = {
