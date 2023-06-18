@@ -21,5 +21,10 @@ const saleService = {
     });
     return result;
   },
+
+  async getById(id) {
+    const allSale = await model.Sale.findOne({ where: { id } });
+    return allSale;
+  },
 }
 module.exports = saleService;
