@@ -43,11 +43,7 @@ App delivery de bebidas, é uma aplicação fullstack, desenvolvido com três ti
  - Porta do Banco de dados: `3306`;
 
 ## Seque abaixo algumas imagens da aplicação
-![Captura de tela de 2022-10-04 18-44-26](https://github.com/luccasst/app-delivery/assets/94481606/c2366a3d-2c98-4ef1-abac-2965e23b8dbe)
 
-![Captura de tela de 2022-10-04 18-44-52](https://github.com/luccasst/app-delivery/assets/94481606/234d538e-f9b0-4f45-9de1-8d7f1b1f3668)
-
-![Captura de tela de 2022-10-04 18-45-09](https://github.com/luccasst/app-delivery/assets/94481606/a99899f5-8962-486a-8ae3-61a48adf83b0)
 
 
 
