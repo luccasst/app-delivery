@@ -11,6 +11,11 @@ const adminController = {
     console.log(newUser);
     return res.status(201).json(newUser, { message: 'Usuário criado com sucesso' });
   },
+
+  async findAll(_req, res) {
+    const users = await adminService.findAll();
+    return res.status(200).json(users);
+  },
 }
 
 module.exports = adminController;
