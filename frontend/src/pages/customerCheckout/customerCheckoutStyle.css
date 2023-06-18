@@ -1,0 +1,22 @@
+.finalizar-body {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 800px;
+  }
+  
+  .detalhes-body {
+    margin: auto;
+    width: 800px;
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .bnt-checkout {
+    margin: auto;
+  }
+  
+  .bnt-checkout:disabled{
+    color:gray;
+  }
+  
