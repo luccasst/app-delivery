@@ -1,0 +1,8 @@
+.customer-body {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  
