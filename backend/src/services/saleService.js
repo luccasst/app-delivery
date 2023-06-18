@@ -31,5 +31,10 @@ const saleService = {
     const allSales = await model.Sale.findAll({ where: { userId: id }, raw: true });
     return allSales;
   },
+
+  async getSallesById(id) {
+    const allSales = await model.Sale.findAll({ where: { sellerId: id }, raw: true });
+    return allSales;
+  },
 }
 module.exports = saleService;
