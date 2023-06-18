@@ -1,0 +1,9 @@
+.products-body {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+  
