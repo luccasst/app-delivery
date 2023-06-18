@@ -21,6 +21,13 @@ const saleProductService = {
     });
     return customerCorder;
   },
+
+  async updateStatus(id, newStatus) {
+    await models.Sale.update({
+      status: newStatus,
+    },
+      { where: { id } });
+  },
 }
 
 module.exports = saleProductService;
