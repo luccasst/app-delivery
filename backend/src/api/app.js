@@ -11,6 +11,7 @@ const adminRoute = require('../routes/adminRoute');
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use('/images', express.static('./public'));
 
 app.use('/login', loginRouter);
 app.use('/products', productRouter);
