@@ -47,5 +47,8 @@ App delivery de bebidas, é uma aplicação fullstack, desenvolvido com três ti
 
 ![Captura de tela de 2022-10-04 18-44-52](https://github.com/luccasst/app-delivery/assets/94481606/234d538e-f9b0-4f45-9de1-8d7f1b1f3668)
 
+![Captura de tela de 2022-10-04 18-45-09](https://github.com/luccasst/app-delivery/assets/94481606/a99899f5-8962-486a-8ae3-61a48adf83b0)
+
+
 
 
