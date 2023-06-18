@@ -41,3 +41,8 @@ App delivery de bebidas, é uma aplicação fullstack, desenvolvido com três ti
  - Porta do Backend: `3001`;
  - Porta do Frontend: `3000`;
  - Porta do Banco de dados: `3306`;
+
+## Seque abaixo algumas imagens da aplicação
+![Captura de tela de 2022-10-04 18-44-26](https://github.com/luccasst/app-delivery/assets/94481606/c2366a3d-2c98-4ef1-abac-2965e23b8dbe)
+
+
