@@ -17,7 +17,7 @@ App delivery de bebidas, é uma aplicação fullstack, desenvolvido com três ti
  ### Backend:
 
  - Criação e associação de tabelas usando `models` do `sequelize`;
- - Modelagem de dados com o sistema de gerenciamento de banco de dados relaiconal **MySQL** e com o ORM **sequelize**;
+ - Modelagem de dados com o sistema de gerenciamento de banco de dados relacional **MySQL** e com o ORM **sequelize**;
  - Construção de uma **API REST** com endpoints para consumir os models criados;
  - Desenvolvimento de um `CRUD` e algumas regras de negócio utilizando `ORM`;
 
